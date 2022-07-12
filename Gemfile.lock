@@ -242,7 +242,7 @@ DEPENDENCIES
   pg
   puma (~> 5.0)
   rails (~> 7.0.3)
-  rubocop (>= 1.0, < 2.0)
+  rubocop (>= 1.0, < 3.0)
   selenium-webdriver
   sprockets-rails
   stimulus-rails
