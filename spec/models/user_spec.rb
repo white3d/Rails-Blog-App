@@ -1,4 +1,4 @@
-require 'test_helper'
+require 'rails_helper'
 
 RSpec.describe User, type: :model do
   it 'User should not be valid without valid attributes' do
