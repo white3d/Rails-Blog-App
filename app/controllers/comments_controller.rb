@@ -2,6 +2,7 @@ class CommentsController < ApplicationController
   def new
     @comment = Comment.new
   end
+
   def create
     @publisher = User.find(params[:user_id])
     @post = Post.find(params[:post_id])
